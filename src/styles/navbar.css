@@ -1,0 +1,33 @@
+.navBar {
+  background-color: rgb(120, 113, 113);
+  border-bottom: 3px solid black;
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+
+.logo {
+  width: 300px;
+  display: inline-block;
+}
+
+.navbar-heading {
+  font-size: 42px;
+  margin-top: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.navbar-links-item:first-child {
+  padding-left: 15px;
+  padding-right: 10px;
+  border-right: 2px solid white;
+}
+
+.navbar-links-item:nth-child(2) {
+  padding-left: 15px;
+}
