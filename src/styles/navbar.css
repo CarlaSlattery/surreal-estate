@@ -4,27 +4,45 @@
   color: white;
   padding: 20px;
   display: flex;
+  justify-content: center;
 }
 
 .logo {
-  width: 300px;
-  display: inline-block;
+  width: 200px;
+  padding: 7.5px 10px 7.5px 0;
+  justify-content: flex-start;
+  margin-right: 200px;
 }
 
 .navbar-heading {
   font-size: 42px;
   margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-links {
-  display: flex;
   list-style-type: none;
   font-size: 24px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.navbar-links-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links-item a:hover {
+  color: rgb(230, 147, 14);
+  border-bottom: 2px solid rgb(230, 147, 14);
+  transition: 250ms;
 }
 
 .navbar-links-item:first-child {
   padding-left: 15px;
-  padding-right: 10px;
+  padding-right: 15px;
+
   border-right: 2px solid white;
 }
 
