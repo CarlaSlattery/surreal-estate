@@ -1,0 +1,22 @@
+.add-property {
+  border: 2px solid rgb(120, 113, 113);
+  border-radius: 5px;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+.add-button {
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  background-color: #764872;
+  color: white;
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: rgb(230, 147, 14);
+  transition: 250ms;
+  cursor: pointer;
+}
