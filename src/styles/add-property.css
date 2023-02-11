@@ -4,6 +4,7 @@
   width: 75%;
   text-align: center;
   margin: auto;
+  margin-top: 2em;
 }
 
 .add-button {
@@ -13,10 +14,30 @@
   background-color: #764872;
   color: white;
   border-radius: 5px;
+  width: 50%;
 }
 
 .add-button:hover {
   background-color: rgb(230, 147, 14);
   transition: 250ms;
   cursor: pointer;
+}
+
+form {
+  margin-left: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  gap: 10px 20px;
+}
+
+input,
+select {
+  margin-left: 5px;
+  font-size: 16px;
+  padding: 2px 5px;
+}
+
+.email-input {
+  width: 75%;
 }

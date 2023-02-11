@@ -7,9 +7,9 @@ const AddProperty = () => {
     fields: {
       title: "",
       city: "Manchester",
-      type: "Flat",
-      bathrooms: "",
-      bedrooms: "",
+      type: "",
+      bathrooms: "1",
+      bedrooms: "1",
       price: "",
       email: "",
     },
@@ -30,6 +30,7 @@ const AddProperty = () => {
       <h2>Add Property</h2>
       <form onSubmit={handleAddProperty}>
         <label htmlFor="title">
+          Search:
           <input
             id="title"
             name="title"
@@ -39,6 +40,7 @@ const AddProperty = () => {
           />
         </label>
         <label htmlFor="city">
+          Location:
           <select
             id="city"
             name="city"
@@ -52,6 +54,7 @@ const AddProperty = () => {
           </select>
         </label>
         <label htmlFor="type">
+          Type of property:
           <select
             id="type"
             name="type"
@@ -67,7 +70,18 @@ const AddProperty = () => {
             <option value="Bungalow">Bungalow</option>
           </select>
         </label>
+        <label htmlFor="bedrooms">
+          Min. bedrooms:
+          <input
+            id="bedrooms"
+            name="bedrooms"
+            value={fields.bedrooms}
+            placeholder="bedrooms"
+            onChange={handleFieldChange}
+          />
+        </label>
         <label htmlFor="bathrooms">
+          Min. bathrooms:
           <input
             id="bathrooms"
             name="bathrooms"
@@ -78,6 +92,7 @@ const AddProperty = () => {
         </label>
 
         <label htmlFor="price">
+          Min. Price:
           <input
             id="price"
             name="price"
@@ -87,6 +102,7 @@ const AddProperty = () => {
           />
         </label>
         <label htmlFor="email">
+          Email:
           <input
             id="email"
             name="email"
