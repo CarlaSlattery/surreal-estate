@@ -8,9 +8,9 @@ const AddProperty = () => {
       title: "",
       city: "Manchester",
       type: "",
-      bathrooms: "1",
-      bedrooms: "1",
-      price: "",
+      bathrooms: 0,
+      bedrooms: 0,
+      price: 0,
       email: "",
     },
   };
@@ -106,6 +106,7 @@ const AddProperty = () => {
           <input
             id="email"
             name="email"
+            type="email"
             value={fields.email}
             placeholder="email"
             onChange={handleFieldChange}
