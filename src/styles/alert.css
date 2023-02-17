@@ -1,0 +1,21 @@
+.alert {
+  margin-bottom: 1.5em;
+  padding: 5px;
+  width: 30%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.alert.alert-success {
+  border: 3px solid rgb(20, 72, 20);
+  color: rgb(20, 72, 20);
+
+  background-color: rgb(114, 173, 114);
+}
+
+.alert.alert-error {
+  border: 3px solid rgb(107, 37, 37);
+  color: rgb(107, 37, 37);
+
+  background-color: rgb(203, 175, 175);
+}

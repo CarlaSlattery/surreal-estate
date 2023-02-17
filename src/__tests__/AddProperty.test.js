@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import AddProperty from "../components/AddProperty";
+import userEvent from "@testing-library/user-event";
 
 describe("AddProperty", () => {
   test("renders heading element", () => {
@@ -16,8 +17,11 @@ describe("AddProperty", () => {
   test("Location displays the correct number of city options", () => {
     render(<AddProperty />);
 
-    const locationOptions = screen.getAllByLabelText("location");
+    const locationOptions = screen.getByLabelText("city");
     expect(locationOptions).toHaveLength(4);
+  });
+  test("it allows user to change location", () => {
+    render(<AddProperty />);
   });
   test("renders the email input correctly", () => {
     render(<AddProperty />);
