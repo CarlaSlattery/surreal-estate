@@ -1,7 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import AddProperty from "../components/AddProperty";
-import userEvent from "@testing-library/user-event";
 
 describe("AddProperty", () => {
   test("renders heading element", () => {

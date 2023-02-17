@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert displays error message 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-error"
+  >
+    Error - server not working, please try later.
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert displays success message 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-error"
+  >
+    Success! Property Added
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert does not render if message is an empty string 1`] = `<DocumentFragment />`;
