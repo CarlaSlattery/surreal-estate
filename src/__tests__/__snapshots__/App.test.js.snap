@@ -41,6 +41,7 @@ exports[`App renders app component correctly 1`] = `
         </li>
       </ul>
     </div>
+    Properties Page
     <div
       class="add-property"
     >

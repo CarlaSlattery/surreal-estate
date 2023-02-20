@@ -4,6 +4,6 @@
 // learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom";
 
-import { TextEncoder } from "util";
-
+import { TextEncoder, TextDecoder } from "util";
+global.TextDecoder = TextDecoder;
 global.TextEncoder = TextEncoder;

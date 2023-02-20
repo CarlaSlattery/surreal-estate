@@ -16,7 +16,7 @@ describe("AddProperty", () => {
   test("Location displays the correct number of city options", () => {
     render(<AddProperty />);
 
-    const locationOptions = screen.getByLabelText("city");
+    const locationOptions = screen.getByLabelText(/location:/i);
     expect(locationOptions).toHaveLength(4);
   });
   test("it allows user to change location", () => {
