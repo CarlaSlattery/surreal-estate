@@ -1,0 +1,44 @@
+p {
+  font-size: 16px;
+}
+
+.property-card-container {
+  background-color: rgb(172, 171, 171);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.property-card {
+  background-color: white;
+  margin: 1em;
+  padding: 1.5em;
+  width: 100%;
+}
+
+.property-title {
+  color: #764872;
+}
+
+.email {
+  background-color: #764872;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.email p {
+  padding: 5px;
+}
+
+.email a {
+  text-decoration: none;
+  color: white;
+}
+
+.email:hover {
+  background-color: rgb(230, 147, 14);
+  transition: 250ms;
+  cursor: pointer;
+}

@@ -10,6 +10,7 @@ const props = {
     bathrooms: "1",
     bedrooms: "2",
     price: "130000",
+    email: "test@email.co.uk",
   },
 };
 
