@@ -5,7 +5,6 @@ import { faBath } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "./Navbar";
 import Properties from "./Properties";
 import AddProperty from "./AddProperty";
-import PropertyCard from "./PropertyCard";
 
 library.add(faBath);
 
@@ -18,7 +17,7 @@ const App = () => {
         <Route path="/add" element={<AddProperty />} />
       </Routes>
       <Properties />
-      <PropertyCard />
+
       <AddProperty />
     </div>
   );
