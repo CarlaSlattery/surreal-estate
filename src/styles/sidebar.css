@@ -1,0 +1,19 @@
+.sidebar {
+  background-color: #764872;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.location-link:hover {
+  background-color: rgb(230, 147, 14);
+  transition: 250ms;
+  cursor: pointer;
+  color: black;
+}

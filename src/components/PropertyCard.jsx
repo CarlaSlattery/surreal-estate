@@ -41,20 +41,12 @@ const PropertyCard = ({ title, city, type, bathrooms, bedrooms, price }) => {
 };
 
 PropertyCard.propTypes = {
-  title: PropTypes.string,
-  city: PropTypes.string,
-  type: PropTypes.string,
-  bathrooms: PropTypes.string,
-  bedrooms: PropTypes.string,
-  price: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  city: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  bathrooms: PropTypes.isRequired,
+  bedrooms: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
 };
 
-PropertyCard.defaultProps = {
-  title: "2 bed period property",
-  city: "Manchester",
-  type: "flat",
-  bathrooms: "1",
-  bedrooms: "2",
-  price: "130000",
-};
 export default PropertyCard;
