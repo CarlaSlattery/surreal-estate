@@ -38,7 +38,7 @@ const AddProperty = () => {
       <Alert message={alert.message} success={alert.success} />
       <form onSubmit={handleAddProperty}>
         <label htmlFor="title">
-          Search:
+          Description:
           <input
             id="title"
             name="title"
@@ -79,7 +79,7 @@ const AddProperty = () => {
           </select>
         </label>
         <label htmlFor="bedrooms">
-          Min. bedrooms:
+          Bedrooms:
           <input
             id="bedrooms"
             name="bedrooms"
@@ -89,7 +89,7 @@ const AddProperty = () => {
           />
         </label>
         <label htmlFor="bathrooms">
-          Min. bathrooms:
+          Bathrooms:
           <input
             id="bathrooms"
             name="bathrooms"
@@ -100,7 +100,7 @@ const AddProperty = () => {
         </label>
 
         <label htmlFor="price">
-          Min. Price:
+          Price:
           <input
             id="price"
             name="price"
