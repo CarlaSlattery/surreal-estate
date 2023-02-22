@@ -4,15 +4,15 @@ p {
 
 .property-card-container {
   background-color: rgb(172, 171, 171);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .property-card {
   background-color: white;
   margin: 1em;
   padding: 1.5em;
-  width: 100%;
 }
 
 .property-title {
